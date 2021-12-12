@@ -55,6 +55,7 @@ u32_backend = ["curve25519-dalek/u32_backend"]
 u64_backend = ["curve25519-dalek/u64_backend"]
 avx2_backend = ["curve25519-dalek/avx2_backend"]
 serde_base64 = ["serde", "base64"]
+no_cc = ["clear_on_drop/no_cc"]
 
 [package.metadata.docs.rs]
 features = ["nightly"]
